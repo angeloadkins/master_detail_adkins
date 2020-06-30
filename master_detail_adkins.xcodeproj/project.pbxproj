@@ -14,6 +14,8 @@
 		39104F8A24AAEE370010A6CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39104F8824AAEE370010A6CA /* Main.storyboard */; };
 		39104F8C24AAEE380010A6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39104F8B24AAEE380010A6CA /* Assets.xcassets */; };
 		39104F8F24AAEE380010A6CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39104F8D24AAEE380010A6CA /* LaunchScreen.storyboard */; };
+		39104F9824AAEF570010A6CA /* MusicAlbums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39104F9624AAEF570010A6CA /* MusicAlbums.swift */; };
+		39104F9924AAEF570010A6CA /* Tracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39104F9724AAEF570010A6CA /* Tracks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		39104F8B24AAEE380010A6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39104F8E24AAEE380010A6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39104F9024AAEE380010A6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39104F9624AAEF570010A6CA /* MusicAlbums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicAlbums.swift; sourceTree = "<group>"; };
+		39104F9724AAEF570010A6CA /* Tracks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		39104F7F24AAEE370010A6CA /* master_detail_adkins */ = {
 			isa = PBXGroup;
 			children = (
+				39104F9624AAEF570010A6CA /* MusicAlbums.swift */,
+				39104F9724AAEF570010A6CA /* Tracks.swift */,
 				39104F8024AAEE370010A6CA /* AppDelegate.swift */,
 				39104F8224AAEE370010A6CA /* SceneDelegate.swift */,
 				39104F8424AAEE370010A6CA /* MasterViewController.swift */,
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39104F9824AAEF570010A6CA /* MusicAlbums.swift in Sources */,
 				39104F8124AAEE370010A6CA /* AppDelegate.swift in Sources */,
 				39104F8324AAEE370010A6CA /* SceneDelegate.swift in Sources */,
+				39104F9924AAEF570010A6CA /* Tracks.swift in Sources */,
 				39104F8524AAEE370010A6CA /* MasterViewController.swift in Sources */,
 				39104F8724AAEE370010A6CA /* DetailViewController.swift in Sources */,
 			);
