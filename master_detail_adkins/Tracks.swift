@@ -10,6 +10,9 @@ import Foundation
 
 struct Tracks {
     
+    
+
+    
     var song: String?
     var length: String?
     var composer: String?
